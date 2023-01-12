@@ -6,12 +6,14 @@
 2. Remotely Connecting
 3. Trying Some Commands
 
-## Installing VScode
-The first step in this process is to get setup with VScode for your respective OS.
-[This is the link to the official website for download options](https://code.visualstudio.com/download)
+## Part 1 - Installing VScode
+The first step in this process is to get setup with Visual Studio Code on your computer.
+Follow the instructions to download and install VScode on your machine.
 
+[Official website for download](https://code.visualstudio.com/download)
 
+Next, open Visual Studio Code and locate the option to open a **New Terminal**
 
-## Remotely Connecting
+## Part II - Remotely Connecting
 
-## Trying Some Commands
+## Part III - Trying Some Commands
