@@ -12,7 +12,7 @@ Follow the instructions to download and install VScode on your machine.
 
 [Official website for download](https://code.visualstudio.com/download)
 
-Next, open Visual Studio Code and locate the option to open a **New Terminal**
+**Next, open Visual Studio Code and locate the option to open a *New Terminal* **
 
 ## Part II - Remotely Connecting
 
