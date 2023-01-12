@@ -1,4 +1,5 @@
 ## Welcome to my CSE 15L Lab Reports GitHub Page!
+*This is where I will publish my weekly CSE 15L Lab Reports*
 
 * [Lab 1 Report](https://bretdubois.github.io/cse15l-lab-reports/lab1-report)
 * [Lab 2 Report](https://bretdubois.github.io/cse15l-lab-reports/lab2-report)
