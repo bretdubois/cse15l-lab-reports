@@ -7,16 +7,14 @@
 3. Trying Some Commands
 
 ## Part I - Installing VScode
-The first step in this process is to get setup with Visual Studio Code on your computer.
-Follow the instructions to download and install VScode on your machine.
+1. Follow the instructions to download and install VScode on your machine.
+* [Official website for download](https://code.visualstudio.com/download)
 
-[Official website for download](https://code.visualstudio.com/download)
-
-Next, open Visual Studio Code and you should see the logo in the background with various menus/options.
+2. Open Visual Studio Code and you should see the logo in the background with various menus/options.
 
 ## Part II - Remotely Connecting via SSH
-1. Install 'git' if you're using Windows: [Git](https://gitforwindows.org)
-2. Obtain your course-specific username from [here](https://sdacs.ucsd.edu/~icc/index.php
+1. If you're using Windows, install 'git' first: [Git](https://gitforwindows.org)
+2. Obtain your course-specific username from [here](https://sdacs.ucsd.edu/~icc/index.php).
 3. Open the terminal in VSCode by going to **View > Terminal**.
 4. In the new terminal, enter the command 'ssh [username]@ieng6.ucsd.edu' and press enter. Replace [username] with your ieng6 account username.
 
