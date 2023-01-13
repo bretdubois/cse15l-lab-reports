@@ -10,7 +10,8 @@
 1. Follow the instructions to download and install VScode on your machine.
 * [Official website for download](https://code.visualstudio.com/download)
 
-2. Open Visual Studio Code and you should see the logo in the background with various menus/options.
+2. Open Visual Studio Code and you should see something like this:
+![vscode](https://github.com/bretdubois/cse15l-lab-reports/blob/lab1-images/vscode.png?raw=true)
 
 ## Part II - Remotely Connecting via SSH
 1. If you're using Windows, install 'git' first: [Git](https://gitforwindows.org)
