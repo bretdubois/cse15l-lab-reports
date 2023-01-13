@@ -27,9 +27,9 @@ You're now ready to run commands on the remote computer using your course-specif
 4. Enter the command 'cat [file]', using the name of the file you want to view intstead of [file].
 
 Try entering:
-'''
+~~~
 $ cd /home/linux/ieng6/cs15lwi23/public
 $ cat hello.txt
-'''
+~~~
 
 This changes the directory to the 'public' folder and opens the 'hello.txt' file.
