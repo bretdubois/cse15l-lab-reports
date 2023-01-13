@@ -14,9 +14,11 @@
 
 ## Part II - Remotely Connecting via SSH
 1. If you're using Windows, install 'git' first: [Git](https://gitforwindows.org)
-2. Obtain your course-specific username from [here](https://sdacs.ucsd.edu/~icc/index.php).
+2. Obtain your course-specific username from [here](https://sdacs.ucsd.edu/~icc/index.php). **NEVER share your account information with anyone.**
 3. Open the terminal in VSCode by going to **View > Terminal**.
 4. In the new terminal, enter the command 'ssh [username]@ieng6.ucsd.edu' and press enter. Replace [username] with your ieng6 account username.
+
+You're now ready to run commands on the remote computer using your course-specific account!
 
 ## Part III - Trying Some Commands
 1. Once connected to the ieng6 server, you can run basic Linux commands such as 'ls', 'cd', and 'cat'.
@@ -29,5 +31,3 @@ Try entering:
 'cat hello.txt'
 
 This changes the directory to the 'public' folder and opens the 'hello.txt' file.
-
-**Additionally, NEVER share your account information with anyone.**
