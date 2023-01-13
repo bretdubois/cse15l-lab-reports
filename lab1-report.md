@@ -11,14 +11,16 @@
 * [Official website for download](https://code.visualstudio.com/download)
 
 2. Open Visual Studio Code and you should see something like this:
-![vscode](https://github.com/bretdubois/cse15l-lab-reports/blob/lab1-images/vscode.png?raw=true)
+![vscode](https://github.com/bretdubois/cse15l-lab-reports/blob/main/images/vscode.png?raw=true)
 
 ## Part II - Remotely Connecting via SSH
 1. If you're using Windows, install 'git' first: [Git](https://gitforwindows.org)
 2. Obtain your course-specific username from [here](https://sdacs.ucsd.edu/~icc/index.php). **NEVER share your account information with anyone.**
-3. Open the terminal in VSCode by going to **View > Terminal**.
+3. Open the terminal in VSCode by selecting **New Terminal**.
 4. In the new terminal, enter the command 'ssh [username]@ieng6.ucsd.edu' and press enter. Replace [username] with your ieng6 account username.
 
+If it looks like this...
+![remoteaccess](https://github.com/bretdubois/cse15l-lab-reports/blob/main/images/remoteaccess.png?raw=true)
 You're now ready to run commands on the remote computer using your course-specific account!
 
 ## Part III - Trying Some Commands
@@ -34,3 +36,4 @@ $ cat hello.txt
 ~~~
 
 This changes the directory to the 'public' folder and opens the 'hello.txt' file.
+![remoteaccess](https://github.com/bretdubois/cse15l-lab-reports/blob/main/images/welcometext.png?raw=true)
