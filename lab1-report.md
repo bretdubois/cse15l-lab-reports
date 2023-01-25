@@ -37,5 +37,5 @@ $ cd /home/linux/ieng6/cs15lwi23/public
 $ cat hello.txt
 ~~~
 
-This changes the directory to the 'public' folder and opens the 'hello.txt' file.
+This changes the directory to the `public` folder and opens the `hello.txt` file.
 ![remoteaccess](https://github.com/bretdubois/cse15l-lab-reports/blob/main/images/welcometext.png?raw=true)
