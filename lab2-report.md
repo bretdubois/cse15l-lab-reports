@@ -14,7 +14,7 @@ This is a simple web server created in Java that adds a message using the given 
 3. When a valid port is provided, it passes this as an argument to a new instance of `Handler`.
 
 ## Part II
-One example from the lab of a method that contains a buf was `reversed`
+One example from the lab of a method that contains a bug was `reversed`
 This is an example of how we can use JUnit to test using a failure-inducing input:
 ~~~
   @Test
