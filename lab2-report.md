@@ -18,7 +18,7 @@ One example from the lab of a method that contains a bug was `reversed`
 This is an example of how we can use JUnit to test using a failure-inducing input:
 ~~~
   @Test
-  public void testReversed() {
+  public void testReversed2() {
     int[] input1 = { 1, 2, 3, 4, 5, 6 };
     int[] expected = { 6, 5, 4, 3, 2, 1 };
     assertArrayEquals(expected, ArrayExamples.reversed(input1));
@@ -34,7 +34,7 @@ Input that does not induce a failure with the `reversed` method is when zero or 
   }
 ~~~
 
-Provided below is a screenshot of the output when both tests are ran (note how only the first one passes):
+Provided below is a screenshot of the output when both tests are ran (note how only `testReversed` passes):
 ![remoteaccess](https://github.com/bretdubois/cse15l-lab-reports/blob/main/images/lab2junit.png?raw=true)
 
 
