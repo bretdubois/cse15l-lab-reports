@@ -14,6 +14,7 @@ This is a simple web server created in Java that adds a message using the given 
 3. When a valid port is provided, it passes this as an argument to a new instance of `Handler`.
 
 Here is a demonstration of the StringServer in the browser:
+
 <img width="483" alt="Screenshot 2023-02-13 at 10 58 03 PM" src="https://user-images.githubusercontent.com/122574417/218663027-91770627-71f9-4f28-810c-771b1c8ac693.png">
 <img width="519" alt="Screenshot 2023-02-13 at 10 58 12 PM" src="https://user-images.githubusercontent.com/122574417/218663075-f2a164f8-6072-42bc-a0fe-3b788175cc73.png">
 
