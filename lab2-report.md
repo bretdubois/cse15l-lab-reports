@@ -66,7 +66,7 @@ And this is the resolved version:
   }
 ~~~
 
-In the original code, the incorrect array index was used to assign values from newArray to arr, so the original array was modified instead. In the fixed code, the correct array index is used to assign values to newArray, and the original array is not modified.
+In the original code, the incorrect array index was used to assign values from newArray to arr, so the original array was modified instead. In order to fix the code, the proper array index is used in assigning values to newArray, and the original array is unmodified.
 
 
 ## Part III
