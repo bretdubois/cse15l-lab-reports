@@ -41,7 +41,7 @@ This will outline how to add an SSH key to GitHub for cloning and pushing using 
 12. Check the terminal connection with `ssh -T git@github.com`
 
 ## CSE Labs Done Faster
-Now we'll put it together with the week 7 lab exercise.
+Here is how I utilized some of these shortcuts with the week 7 lab exercise.
 ### Steps Required:
 1. Log into ieng6
 2. Clone your fork of the repository from your Github account
@@ -50,11 +50,52 @@ Now we'll put it together with the week 7 lab exercise.
 5. Run the tests, demonstrating that they now succeed
 6. Commit and push the resulting change to your Github account
 
-### Log into ieng6
-Open a new Bash window and enter `ssh <username>@<domain>` then press `<Enter>`.
+### 1. Log into ieng6
+Opened a new Bash window and pressed `<up>` in my terminal since the last thing I used bash for was logging in to ieng6:
+`ssh <username>@<domain>` then press `<Enter>`.
+
 <img width="508" alt="Screenshot 2023-02-26 at 5 31 26 PM" src="https://user-images.githubusercontent.com/122574417/221452018-21e38a64-ec7b-4568-bdf5-e2c1f4129bc2.png">
 
-## Clone your fork of the repository
+
+### 2. Clone your fork of the repository
+Since I had already cloned my fork of the repository previously, I pressed `<Ctrl+R>` to search and then typed `git c<Enter>` to auto-complete the full command: `git clone git@github.com:bretdubois/lab7.git`
+
+<img width="587" alt="Screenshot 2023-02-27 at 6 03 30 PM" src="https://user-images.githubusercontent.com/122574417/221734144-a4031d40-a9ca-4722-b0fa-82b660a2f0c2.png">
+
+
+### 3. Run the tests, demonstrating that they fail
+I navigated to lab7 with `cd lab7` and `ls` to show the files it contains.
+Using `<Ctrl+R>` I searched `javac -cp` and pressed `<up><enter>` to select `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+Then I used `<Ctrl+R>` to reverse search again by typing `java<Space>` and then pressing `<Enter>`.
+The full command is `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
+<img width="941" alt="Screenshot 2023-02-27 at 7 15 35 PM" src="https://user-images.githubusercontent.com/122574417/221744528-f8fa1c4b-af41-4ada-aaef-c92ad10bdeab.png">
+
+
+### 4. Edit the code file to fix the failing test
+To edit the code file, I pressed `nano L<Tab>.java<Enter>`.
+Then, I used `<Ctrl+W>` to search `< 0<Enter>` then `<right>=`.
+Finally, I did `<Ctrl+W>return result<Enter><up><up><right><right><right><right><right><right><right><delete>2`.
+
+<img width="931" alt="Screenshot 2023-02-27 at 6 37 25 PM" src="https://user-images.githubusercontent.com/122574417/221739070-6b17fd4f-3074-437f-9e99-83c3753dd267.png">
+
+Then `<Ctrl+O><Enter><Ctrl+X>` to save and exit.
+
+### 5. Rerun the tests, demonstrating that they now succeed
+To run the JUnit tests again, I first compiled `ListExamples.java` with `javac L<Tab>.j<Tab>`.
+Then I pressed `<up><up><up><Enter>` to navigate through my previous bash history and select the appropriate command: `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
+<img width="945" alt="Screenshot 2023-02-27 at 6 39 35 PM" src="https://user-images.githubusercontent.com/122574417/221739387-be8d703f-65a8-4a72-a75e-2a85c44747aa.png">
+
+### 6. Commit and push the resulting changes to your GitHub account
+To commit and push the resulting changes, I entered:
+`git init` and added with `git add L<Tab>.j<Tab>`
+Then `git commit -m "Fixed failing JUnit tests"`
+And finally `git push origin main`
+<img width="778" alt="Screenshot 2023-02-27 at 6 55 25 PM" src="https://user-images.githubusercontent.com/122574417/221742848-53fb9d20-84b0-4a65-bdff-1ce23f83cb99.png">
+
+
+
 
 
 
