@@ -4,4 +4,5 @@
 * [Lab 1 Report](/lab1-report.md)
 * [Lab 2 Report](/lab2-report.md)
 * [Lab 3 Report](/lab3-report.md)
-* [Lab 4 Report](https://bretdubois.github.io/cse15l-lab-reports/lab4-report)
+* [Lab 4 Report](/lab4-report.md)
+* [Lab 5 Report](/lab5-report.md)
